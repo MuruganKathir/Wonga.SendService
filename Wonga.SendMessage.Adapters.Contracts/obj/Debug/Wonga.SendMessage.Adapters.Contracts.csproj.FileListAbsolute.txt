@@ -1,0 +1,15 @@
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Wonga.SendMessage.Adapters.Contracts.dll
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Wonga.SendMessage.Adapters.Contracts.pdb
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Wonga.Common.dll
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Wonga.Common.pdb
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\obj\Debug\Wonga.SendMessage.Adapters.Contracts.csprojAssemblyReference.cache
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\obj\Debug\Wonga.SendMessage.Adapters.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\obj\Debug\Wonga.SendMessage.Adapters.Contracts.csproj.CopyComplete
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\obj\Debug\Wonga.SendMessage.Adapters.Contracts.dll
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\obj\Debug\Wonga.SendMessage.Adapters.Contracts.pdb
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Wonga.SendMessage.Adapters.Contracts.dll.config
+C:\Users\Elitebook 8570w\source\repos\Wonga\Wonga.SendMessage.Adapters.Contracts\bin\Debug\Wonga.Common.dll.config
