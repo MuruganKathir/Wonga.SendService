@@ -1,0 +1,37 @@
+Wonga MicroService Communication Assignment
+===========================================
+This assignment has been desined based on problem statement
+
+Solution contains two major projects 
+1.Wonga.SendService - Send Message from Wonga.SendService
+2.Wonga.ReceiveService - Receive Message from Wonga.SendService
+
+The above services has been implemented with Facade and Adapter design patterns
+
+Facade Design Pattern has been choosen to hide/encapsulate complextiy for SendMessage method implementation at business logic level.
+ISendServiceOrchestration
+SendSErviceOrchestration
+
+The Message has been sent to RabbitMQ via Adapter desgin pattern. Meaning after validating the message the valid message pass into Queue via Adapter pattern.
+ISendServiceAdapter
+SendServiceAdapter
+
+Factory Pattern has been implemented to achieve service initialization
+WongaFactory static class explains how can we generalise object initialization even application objects lifetime increases
+Inversion of Control IOC has been introduced for decoupling. Used Unity Container which maps contratcs and actual implementation e.g.ISendServiceAdapter SendServiceAdapter
+
+RabbitMQ Implementation
+Interms of Queue implementation the following protocol and exchange type has been used to achieve listen and reply messages in and out from queue.
+1.Protocol :amqp protocol
+2.Exchange :ExchangeType.Direct
+
+Docker Deployment
+Please run the following command to run application on docker container.
+  docker run -d --hostname localhost-rabbit --name wonga-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+Unit Testing : We can confirm the above scenarios send and receive messages via RabbitMQ admin console.
+
+TDD
+Used Rhino Mocks dll
+Created Adapter and Orchestration Test
+ObjectMother is class uses valid and invalid data

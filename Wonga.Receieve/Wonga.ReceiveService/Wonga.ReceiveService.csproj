@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Adapters\**" />
+    <Compile Remove="Wonga.Common\**" />
+    <Compile Remove="Wonga.ReceiveMessage.Contracts\**" />
+    <Compile Remove="Wonga.ReceiveMessage.Orchestrations.Contracts\**" />
+    <Compile Remove="Wonga.ReceiveMessage.Orchestrations\**" />
+    <EmbeddedResource Remove="Adapters\**" />
+    <EmbeddedResource Remove="Wonga.Common\**" />
+    <EmbeddedResource Remove="Wonga.ReceiveMessage.Contracts\**" />
+    <EmbeddedResource Remove="Wonga.ReceiveMessage.Orchestrations.Contracts\**" />
+    <EmbeddedResource Remove="Wonga.ReceiveMessage.Orchestrations\**" />
+    <None Remove="Adapters\**" />
+    <None Remove="Wonga.Common\**" />
+    <None Remove="Wonga.ReceiveMessage.Contracts\**" />
+    <None Remove="Wonga.ReceiveMessage.Orchestrations.Contracts\**" />
+    <None Remove="Wonga.ReceiveMessage.Orchestrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wonga.ReceiveMessage.Adapters\Wonga.ReceiveMessage.Adapters.csproj" />
+    <ProjectReference Include="..\Wonga.ReceiveMessage.Contracts\Wonga.ReceiveMessage.Contracts.csproj" />
+    <ProjectReference Include="..\Wonga.ReceiveMessage.Orchestrations\Wonga.ReceiveMessage.Orchestrations.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.ReceiveService", "Wonga.ReceiveService.csproj", "{172CC9AB-2295-4A04-9652-48E24EF2B29A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wonga.ReceiveMicroservice", "Wonga.ReceiveMicroservice", "{5970742E-BAEA-4444-B4CA-42C2A496B8C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{0AB4CDBD-5EC2-4333-93AB-E3EE65BD8E57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orchestrations", "Orchestrations", "{2B7B983A-A8F6-4A57-AB89-5BEE0AD23DD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{F6B80E3E-06C8-4601-9625-ABE2C61034EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.ReceiveMessage.Adapters.Contracts", "..\Wonga.ReceiveMessage.Adapters.Contracts\Wonga.ReceiveMessage.Adapters.Contracts.csproj", "{3AA710BE-6538-462B-B394-96682CA33705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.ReceiveMessage.Adapters", "..\Wonga.ReceiveMessage.Adapters\Wonga.ReceiveMessage.Adapters.csproj", "{6BA7A355-7C41-454D-AE0A-DC1034FCE774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.ReceiveMessage.Contracts", "..\Wonga.ReceiveMessage.Contracts\Wonga.ReceiveMessage.Contracts.csproj", "{9DDB514D-02B5-40D1-9EB8-85D6E5DD9CAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.ReceiveMessage.Orchestrations", "..\Wonga.ReceiveMessage.Orchestrations\Wonga.ReceiveMessage.Orchestrations.csproj", "{3451DD5C-D482-4710-8370-7ED5D3ECC04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.ReceiveMessage.Orchestrations.Contracts", "..\Wonga.ReceiveMessage.Orchestrations.Contracts\Wonga.ReceiveMessage.Orchestrations.Contracts.csproj", "{64D0E6E3-E802-4663-A71D-19FB5DBF72B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.Common", "..\Wonga.Common\Wonga.Common.csproj", "{9E2A9CB2-1A86-4191-90AD-E2AED1D4D8E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172CC9AB-2295-4A04-9652-48E24EF2B29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172CC9AB-2295-4A04-9652-48E24EF2B29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172CC9AB-2295-4A04-9652-48E24EF2B29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172CC9AB-2295-4A04-9652-48E24EF2B29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA710BE-6538-462B-B394-96682CA33705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA710BE-6538-462B-B394-96682CA33705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA710BE-6538-462B-B394-96682CA33705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA710BE-6538-462B-B394-96682CA33705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA7A355-7C41-454D-AE0A-DC1034FCE774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA7A355-7C41-454D-AE0A-DC1034FCE774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA7A355-7C41-454D-AE0A-DC1034FCE774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA7A355-7C41-454D-AE0A-DC1034FCE774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DDB514D-02B5-40D1-9EB8-85D6E5DD9CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDB514D-02B5-40D1-9EB8-85D6E5DD9CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDB514D-02B5-40D1-9EB8-85D6E5DD9CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDB514D-02B5-40D1-9EB8-85D6E5DD9CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3451DD5C-D482-4710-8370-7ED5D3ECC04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3451DD5C-D482-4710-8370-7ED5D3ECC04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3451DD5C-D482-4710-8370-7ED5D3ECC04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3451DD5C-D482-4710-8370-7ED5D3ECC04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D0E6E3-E802-4663-A71D-19FB5DBF72B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D0E6E3-E802-4663-A71D-19FB5DBF72B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D0E6E3-E802-4663-A71D-19FB5DBF72B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D0E6E3-E802-4663-A71D-19FB5DBF72B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2A9CB2-1A86-4191-90AD-E2AED1D4D8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2A9CB2-1A86-4191-90AD-E2AED1D4D8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2A9CB2-1A86-4191-90AD-E2AED1D4D8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2A9CB2-1A86-4191-90AD-E2AED1D4D8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AB4CDBD-5EC2-4333-93AB-E3EE65BD8E57} = {5970742E-BAEA-4444-B4CA-42C2A496B8C9}
+		{2B7B983A-A8F6-4A57-AB89-5BEE0AD23DD9} = {5970742E-BAEA-4444-B4CA-42C2A496B8C9}
+		{F6B80E3E-06C8-4601-9625-ABE2C61034EA} = {5970742E-BAEA-4444-B4CA-42C2A496B8C9}
+		{3AA710BE-6538-462B-B394-96682CA33705} = {0AB4CDBD-5EC2-4333-93AB-E3EE65BD8E57}
+		{6BA7A355-7C41-454D-AE0A-DC1034FCE774} = {0AB4CDBD-5EC2-4333-93AB-E3EE65BD8E57}
+		{9DDB514D-02B5-40D1-9EB8-85D6E5DD9CAD} = {F6B80E3E-06C8-4601-9625-ABE2C61034EA}
+		{3451DD5C-D482-4710-8370-7ED5D3ECC04F} = {2B7B983A-A8F6-4A57-AB89-5BEE0AD23DD9}
+		{64D0E6E3-E802-4663-A71D-19FB5DBF72B0} = {2B7B983A-A8F6-4A57-AB89-5BEE0AD23DD9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6323841D-C939-4041-ADC8-7BB37D0158BC}
+	EndGlobalSection
+EndGlobal

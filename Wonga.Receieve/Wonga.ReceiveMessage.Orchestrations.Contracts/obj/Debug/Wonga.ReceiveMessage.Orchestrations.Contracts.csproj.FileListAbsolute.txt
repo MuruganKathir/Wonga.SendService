@@ -1,0 +1,5 @@
+C:\Users\Elitebook 8570w\source\repos\Wonga.ReceiveMessage.Orchestrations.Contracts\bin\Debug\Wonga.ReceiveMessage.Orchestrations.Contracts.dll
+C:\Users\Elitebook 8570w\source\repos\Wonga.ReceiveMessage.Orchestrations.Contracts\bin\Debug\Wonga.ReceiveMessage.Orchestrations.Contracts.pdb
+C:\Users\Elitebook 8570w\source\repos\Wonga.ReceiveMessage.Orchestrations.Contracts\obj\Debug\Wonga.ReceiveMessage.Orchestrations.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Elitebook 8570w\source\repos\Wonga.ReceiveMessage.Orchestrations.Contracts\obj\Debug\Wonga.ReceiveMessage.Orchestrations.Contracts.dll
+C:\Users\Elitebook 8570w\source\repos\Wonga.ReceiveMessage.Orchestrations.Contracts\obj\Debug\Wonga.ReceiveMessage.Orchestrations.Contracts.pdb
