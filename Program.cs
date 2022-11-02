@@ -12,19 +12,10 @@ namespace SendService
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
             var inputString = Console.ReadLine();
 
             var sendMessageOrchestration = WongaFactory.CreateInstance<ISendMessageOrchestrations>();
             var profile = sendMessageOrchestration.SendMessage(inputString);
-
-            //var factory = new ConnectionFactory
-            //{
-            //    Uri = new Uri("amqp://guest:guest@localhost:5672")
-            //};
-            //var connection = factory.CreateConnection();
-            //var channel = connection.CreateModel();
-            //DirectExchangePublisher.Publish(channel);
 
             Console.Read();
         }
