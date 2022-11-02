@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Wonga.SendService": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
